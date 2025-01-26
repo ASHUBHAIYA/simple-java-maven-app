@@ -74,14 +74,12 @@
   </build>
   <distributionManagement>
     <repository>
-        <id>...</id>
-        <name>maven-releases</name>
+        <id>maven-releases</id>
         <url>http://3.110.85.101:8081/#browse/browse:maven-releases</url>
     </repository>
-    <repository>
-        <id>...</id>
-        <name>maven-snapshots</name>
+    <snapshotRepository>
+        <id>maven-snapshots</id>
         <url>http://3.110.85.101:8081/#browse/browse:maven-snapshots</url>
-    </repository>
+    </snapshotRepository>
 </distributionManagement> 
 </project>
